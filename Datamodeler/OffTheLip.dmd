@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="OffTheLip" id="45310D27-96B7-502E-5A0C-1FA7AA361B35" version="3.5">
+<createdBy>adrian.perez</createdBy>
+<createdTime>2019-10-09 06:08:20 UTC</createdTime>
+<ownerDesignName>OffTheLip</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>45310D27-96B7-502E-5A0C-1FA7AA361B35</designId>
+</OSDM_Design>
