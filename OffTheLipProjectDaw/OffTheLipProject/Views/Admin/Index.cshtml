@@ -1,0 +1,47 @@
+﻿@{
+    ViewBag.Title = "Admin";
+}
+
+<link href="~/Content/Estilos.css" rel="stylesheet" type="text/css" />
+
+<h2>@ViewBag.Title</h2>
+<hr />
+
+<div id="admin">
+    <div>
+        <h3>Create</h3>
+        <ol>
+            <li>@Html.ActionLink("Create News", "CreateNews", "News")</li>
+            <li>@Html.ActionLink("Create Documentary", "CreatePost", "Documentary")</li>
+            <li>@Html.ActionLink("Create Hardware", "CreateHardware", "Hardware")</li>
+            <li>@Html.ActionLink("Create Surfer", "CreateSurfer", "Surfer")</li>
+        </ol>
+    </div>
+
+    <div>
+        <h3>Edit</h3>
+        <ol>
+            <li>@Html.ActionLink("Edit News", "SearchNews", "News")</li>
+            <li>@Html.ActionLink("Edit Documentary", "SearchDocumentary", "Documentary")</li>
+            <li>@Html.ActionLink("Edit Hardware", "SearchHardware", "Hardware")</li>
+            <li>@Html.ActionLink("Edit Surfer", "SearchSurfer", "Surfer")</li>
+        </ol>
+    </div>
+
+    <div>
+        <h3>Delete</h3>
+        <ol>
+            <li>@Html.ActionLink("Delete News", "DeleteNews", "News")</li>
+            <li>@Html.ActionLink("Delete Documentary", "DeleteDocumentary", "Documentary")</li>
+            <li>@Html.ActionLink("Delete Hardware", "DeleteHardware", "Hardware")</li>
+            <li>@Html.ActionLink("Delete Surfer", "DeleteSurfer", "Surfer")</li>
+        </ol>
+    </div>
+
+    <div>
+        <h3>User Admin</h3>
+        <ol>
+            <li>@Html.ActionLink("Create Admin User", "CreateAdmin", "Admin")</li>
+        </ol>
+    </div>
+</div>

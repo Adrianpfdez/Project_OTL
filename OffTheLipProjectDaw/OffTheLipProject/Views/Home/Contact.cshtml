@@ -1,0 +1,44 @@
+﻿@{
+    ViewBag.Title = "Contact";
+}
+@*<h2>@ViewBag.Title</h2>
+<hr />*@
+
+<link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+<script src="https://kit.fontawesome.com/76a7554e0d.js" crossorigin="anonymous"></script>
+<link href="~/Content/Estilos.css" rel="stylesheet" type="text/css" />
+
+<section id="contContact">
+    <a href='@Url.Action("Index", "Home")'>
+        <img src='@Url.Content("~/Content/img/OffTheLip_V1.jpg")' width="180" height="90" />
+    </a>
+    <br />
+
+    <address>
+        100 Main St <br />
+        Laguna Beach CA 92619 <br />
+        USA <br />
+        Phone: +1 714-504-5655
+    </address>
+
+    <p>For all other business enquiries,<br /> please contact the appropriate department below.</p>
+
+    <address>
+        <strong>Support:</strong> <a href="mailto:Support@example.com">SupportOffthelip@gmail.com</a><br />
+        <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">MarketingOffthelip@gmail.com</a>
+    </address>
+
+    <div class="media">
+        <a href="https://www.facebook.com/">
+            <i class="fab fa-facebook fa-2x facebook"></i>
+        </a>
+
+        <a href="https://www.instagram.com/">
+            <i class="fab fa-instagram fa-2x instagram"></i>
+        </a>
+
+        <a href="https://www.youtube.com/">
+            <i class="fab fa-youtube fa-2x youtube"></i>
+        </a>
+    </div>
+</section>

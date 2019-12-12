@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewBag.Title = "DeleteDocumentary";
+}
+
+<link href="~/Content/Estilos.css" rel="stylesheet" type="text/css" />
+
+<h2>Documentary</h2>
+<hr />
+
+<div class="searchAdmin">
+    <h3>Delete Documentary</h3>
+
+    @using (Html.BeginForm("DeleteDocumentary", "Documentary", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+    {
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary("", new { @class = "text-danger" })
+        <br />
+        @Html.TextBox("videoName", "", new { @class = "textboxSearch", @placeholder = "Documentary name" })
+        <input type="submit" id="submitSearch" value="Delete" class="btn btn-default" />
+    }
+</div>
