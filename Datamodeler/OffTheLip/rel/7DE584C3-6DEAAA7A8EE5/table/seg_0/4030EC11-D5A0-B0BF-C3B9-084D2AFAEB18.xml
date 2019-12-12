@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4030EC11-D5A0-B0BF-C3B9-084D2AFAEB18" name="Competition">
+<createdBy>adrian.perez</createdBy>
+<createdTime>2019-10-09 10:38:35 UTC</createdTime>
+<generatorID>1E4A3E3A-5A96-7882-A145-E9B4EDAF2039</generatorID>
+<ownerDesignName>OffTheLip</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="8E0DB56C-EF10-2F07-0555-019E7797F0F2">
+<createdBy>adrian.perez</createdBy>
+<createdTime>2019-10-09 10:38:35 UTC</createdTime>
+<generatorID>7039C61E-C92F-F800-F25E-ADF2F144FF98</generatorID>
+<ownerDesignName>OffTheLip</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="A4B776E5-19BF-0E0C-00B6-9FF6396C7ADF">
+<createdBy>adrian.perez</createdBy>
+<createdTime>2019-10-09 10:38:35 UTC</createdTime>
+<generatorID>B79D7620-A9E6-1070-8638-63B9EDB0EDD6</generatorID>
+<ownerDesignName>OffTheLip</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Description" id="798A78BE-F8E6-5DFA-91CC-A0C2190E3DDE">
+<createdBy>adrian.perez</createdBy>
+<createdTime>2019-10-09 10:38:35 UTC</createdTime>
+<generatorID>DB892C94-346C-59E0-7BEE-C77FF100ADFC</generatorID>
+<ownerDesignName>OffTheLip</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Location" id="E02DC4A0-CC7F-A98E-187E-3ADF588631C8">
+<createdBy>adrian.perez</createdBy>
+<createdTime>2019-10-09 10:38:35 UTC</createdTime>
+<generatorID>1A72A601-EA95-04DC-59C8-69D94119306C</generatorID>
+<ownerDesignName>OffTheLip</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A731B990-24A4-A473-05ED-832DCE7EC9C4" name="Competición_PK">
+<createdBy>adrian.perez</createdBy>
+<createdTime>2019-10-09 10:38:35 UTC</createdTime>
+<generatorID>C4809784-2D2E-7A0A-ACD5-AE15CC7F7EC0</generatorID>
+<ownerDesignName>OffTheLip</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E0DB56C-EF10-2F07-0555-019E7797F0F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B0C8FDD0-EC14-79C7-B966-31B0C28132CB" containerWithKeyObject="C1588191-C013-BFEF-868D-E19D965C92A4" localFKIndex="C0859CB2-51CD-F7A0-D7EC-F24720F018DC" name="Relation_SH_Surfer_FK">
+<createdBy>adrian.perez</createdBy>
+<createdTime>2019-10-09 10:38:35 UTC</createdTime>
+<generatorID>CCA0BC7C-5343-25D3-45F3-DB043531F6E7</generatorID>
+<ownerDesignName>OffTheLip</ownerDesignName>
+<referredTableLongName>Surfer</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D240D9D6-77AD-5F78-8C4C-CD854DAE0A5A</referredTableID>
+<keyObject>3D97CA67-2F85-A34F-BE86-567BA06C3284</keyObject>
+<referredKeyID>3D97CA67-2F85-A34F-BE86-567BA06C3284</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

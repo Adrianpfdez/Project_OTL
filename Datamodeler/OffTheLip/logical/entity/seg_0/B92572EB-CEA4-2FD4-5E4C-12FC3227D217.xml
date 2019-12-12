@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B92572EB-CEA4-2FD4-5E4C-12FC3227D217" name="User">
+<createdBy>adrian.perez</createdBy>
+<createdTime>2019-10-09 07:54:17 UTC</createdTime>
+<ownerDesignName>OffTheLip</ownerDesignName>
+<engineerTo>
+<item key="7DE584C3-BA0F-FE06-01D4-6DEAAA7A8EE5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="0799DBD4-4909-E09E-8910-D4432EE2D17A">
+<createdBy>adrian.perez</createdBy>
+<createdTime>2019-10-09 07:54:25 UTC</createdTime>
+<ownerDesignName>OffTheLip</ownerDesignName>
+<engineerTo>
+<item key="7DE584C3-BA0F-FE06-01D4-6DEAAA7A8EE5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="36CD036A-5C3D-52CD-4853-014CF860722F">
+<createdBy>adrian.perez</createdBy>
+<createdTime>2019-10-09 07:54:37 UTC</createdTime>
+<ownerDesignName>OffTheLip</ownerDesignName>
+<engineerTo>
+<item key="7DE584C3-BA0F-FE06-01D4-6DEAAA7A8EE5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Password" id="A6416FE6-D3F5-7C56-7E3C-EFAF7790D277">
+<createdBy>adrian.perez</createdBy>
+<createdTime>2019-10-09 07:54:50 UTC</createdTime>
+<ownerDesignName>OffTheLip</ownerDesignName>
+<engineerTo>
+<item key="7DE584C3-BA0F-FE06-01D4-6DEAAA7A8EE5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nationality" id="2D8099F5-E766-79A1-5E6E-752362976835">
+<createdBy>adrian.perez</createdBy>
+<createdTime>2019-10-09 07:55:15 UTC</createdTime>
+<ownerDesignName>OffTheLip</ownerDesignName>
+<engineerTo>
+<item key="7DE584C3-BA0F-FE06-01D4-6DEAAA7A8EE5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0B52164B-F5D5-CFBD-7D8D-4089DA3893FE" name="User PK">
+<createdBy>adrian.perez</createdBy>
+<createdTime>2019-10-09 07:54:34 UTC</createdTime>
+<ownerDesignName>OffTheLip</ownerDesignName>
+<engineerTo>
+<item key="7DE584C3-BA0F-FE06-01D4-6DEAAA7A8EE5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0799DBD4-4909-E09E-8910-D4432EE2D17A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3C11D285-9313-358B-C566-D03901E5B6E7" containerWithKeyObject="C1588191-C013-BFEF-868D-E19D965C92A4" localFKIndex="F8687ABC-3B66-5150-38BA-6F6C2D8E4EB3" name="Relation_SH_Hardware_FK">
+<createdBy>adrian.perez</createdBy>
+<createdTime>2019-10-09 10:38:35 UTC</createdTime>
+<generatorID>CCA0BC7C-5343-25D3-45F3-DB043531F6E7</generatorID>
+<ownerDesignName>OffTheLip</ownerDesignName>
+<referredTableLongName>Hardware</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B72E845C-7F35-B2D5-B978-37B4F740BBBA</referredTableID>
+<keyObject>675C4A85-19F3-7730-CC30-4D709BB12585</keyObject>
+<referredKeyID>675C4A85-19F3-7730-CC30-4D709BB12585</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

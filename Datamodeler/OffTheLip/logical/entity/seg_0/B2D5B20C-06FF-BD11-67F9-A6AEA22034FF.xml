@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B2D5B20C-06FF-BD11-67F9-A6AEA22034FF" name="Hardware">
+<createdBy>adrian.perez</createdBy>
+<createdTime>2019-10-09 07:50:03 UTC</createdTime>
+<ownerDesignName>OffTheLip</ownerDesignName>
+<engineerTo>
+<item key="7DE584C3-BA0F-FE06-01D4-6DEAAA7A8EE5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="B4CE46FB-0CE5-3752-A92F-F47731599F56">
+<createdBy>adrian.perez</createdBy>
+<createdTime>2019-10-09 07:50:24 UTC</createdTime>
+<ownerDesignName>OffTheLip</ownerDesignName>
+<engineerTo>
+<item key="7DE584C3-BA0F-FE06-01D4-6DEAAA7A8EE5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="A8D074B0-DC73-448B-4EC3-2E023C91D400">
+<createdBy>adrian.perez</createdBy>
+<createdTime>2019-10-09 07:50:36 UTC</createdTime>
+<ownerDesignName>OffTheLip</ownerDesignName>
+<engineerTo>
+<item key="7DE584C3-BA0F-FE06-01D4-6DEAAA7A8EE5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Description" id="3B88D9F2-13E7-84CF-661F-A16602EA6853">
+<createdBy>adrian.perez</createdBy>
+<createdTime>2019-10-09 07:50:52 UTC</createdTime>
+<ownerDesignName>OffTheLip</ownerDesignName>
+<engineerTo>
+<item key="7DE584C3-BA0F-FE06-01D4-6DEAAA7A8EE5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name=" ReleaseDate" id="4A34C867-EDAE-1228-176E-64D8C96C6ED4">
+<createdBy>adrian.perez</createdBy>
+<createdTime>2019-10-09 07:51:33 UTC</createdTime>
+<ownerDesignName>OffTheLip</ownerDesignName>
+<engineerTo>
+<item key="7DE584C3-BA0F-FE06-01D4-6DEAAA7A8EE5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Price" id="B0571E12-F875-811F-B617-82C261784451">
+<createdBy>adrian.perez</createdBy>
+<createdTime>2019-10-09 07:52:24 UTC</createdTime>
+<ownerDesignName>OffTheLip</ownerDesignName>
+<engineerTo>
+<item key="7DE584C3-BA0F-FE06-01D4-6DEAAA7A8EE5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1BCAB488-58DC-09A4-103F-54A7E8D9ACD6" name="Hardware PK">
+<createdBy>adrian.perez</createdBy>
+<createdTime>2019-10-09 07:50:36 UTC</createdTime>
+<ownerDesignName>OffTheLip</ownerDesignName>
+<engineerTo>
+<item key="7DE584C3-BA0F-FE06-01D4-6DEAAA7A8EE5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B4CE46FB-0CE5-3752-A92F-F47731599F56</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

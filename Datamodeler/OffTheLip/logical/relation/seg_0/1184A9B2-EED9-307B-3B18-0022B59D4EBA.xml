@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_PC" directorySegmentName="seg_0" id="1184A9B2-EED9-307B-3B18-0022B59D4EBA">
+<createdBy>adrian.perez</createdBy>
+<createdTime>2019-10-09 10:37:30 UTC</createdTime>
+<ownerDesignName>OffTheLip</ownerDesignName>
+<engineerTo>
+<item key="7DE584C3-BA0F-FE06-01D4-6DEAAA7A8EE5" value="true"/>
+</engineerTo>
+<sourcePk>A0DBA390-1FCB-9284-B78D-3896CF3A84A9</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4F5C2DBD-E6F9-F5BA-6907-D82D725078F2</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>642A6EDE-36F3-F0FA-FE13-C51E928650FC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="51CB7D67-9AF1-6F0C-25BD-09271EBD64B4" name="Relation_SD">
+<createdBy>adrian.perez</createdBy>
+<createdTime>2019-10-09 10:38:35 UTC</createdTime>
+<ownerDesignName>OffTheLip</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Documentary_ID" id="5C0F0684-A89F-AD53-271C-3251B1C6FB21">
+<createdBy>adrian.perez</createdBy>
+<createdTime>2019-10-09 10:38:35 UTC</createdTime>
+<ownerDesignName>OffTheLip</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BE162448-EEC4-1673-E70C-A0E6268BE865" referredColumn="3C28101E-3863-6D39-2744-C31055E6EB32"/>
+</associations>
+</Column>
+<Column name="Surfer_ID" id="791C920E-71B7-D644-F57D-0E6FA92088A4">
+<createdBy>adrian.perez</createdBy>
+<createdTime>2019-10-09 10:38:35 UTC</createdTime>
+<ownerDesignName>OffTheLip</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="07107784-8D81-3F84-EC2D-85DF4B72FD9A" referredColumn="5AF3E905-445A-03A6-C168-4D051432053B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BBB70BD9-B74C-477A-D962-CCE2D6C9E2EF" name="Relation_SD_PK">
+<createdBy>adrian.perez</createdBy>
+<createdTime>2019-10-09 10:38:35 UTC</createdTime>
+<ownerDesignName>OffTheLip</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C0F0684-A89F-AD53-271C-3251B1C6FB21"/>
+<colUsage columnID="791C920E-71B7-D644-F57D-0E6FA92088A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D6F39A01-382F-CD4F-8179-FB35744CBBB2" name="Relation_SD_Documentary_FK">
+<createdBy>adrian.perez</createdBy>
+<createdTime>2019-10-09 10:38:35 UTC</createdTime>
+<generatorID>DDF2F748-D2F1-9A96-1805-01862AA91436</generatorID>
+<ownerDesignName>OffTheLip</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C0F0684-A89F-AD53-271C-3251B1C6FB21"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8D1518D9-482B-8F25-601F-68DB8201EA6E" name="Relation_SD_Surfer_FK">
+<createdBy>adrian.perez</createdBy>
+<createdTime>2019-10-09 10:38:35 UTC</createdTime>
+<generatorID>DDF2F748-D2F1-9A96-1805-01862AA91436</generatorID>
+<ownerDesignName>OffTheLip</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="791C920E-71B7-D644-F57D-0E6FA92088A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

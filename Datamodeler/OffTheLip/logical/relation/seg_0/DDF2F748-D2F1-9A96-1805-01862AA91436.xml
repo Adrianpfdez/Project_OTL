@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_SD" directorySegmentName="seg_0" id="DDF2F748-D2F1-9A96-1805-01862AA91436">
+<createdBy>adrian.perez</createdBy>
+<createdTime>2019-10-09 10:33:50 UTC</createdTime>
+<ownerDesignName>OffTheLip</ownerDesignName>
+<engineerTo>
+<item key="7DE584C3-BA0F-FE06-01D4-6DEAAA7A8EE5" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>FF058706-6CB5-8FFD-BA0C-BE470736F9CF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7A645F74-4146-D04B-256C-A37E21C60D99</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="642A6EDE-36F3-F0FA-FE13-C51E928650FC" name="Cart">
+<createdBy>adrian.perez</createdBy>
+<createdTime>2019-10-09 10:36:40 UTC</createdTime>
+<ownerDesignName>OffTheLip</ownerDesignName>
+<engineerTo>
+<item key="7DE584C3-BA0F-FE06-01D4-6DEAAA7A8EE5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="B17AC18C-F53C-3888-E572-D17717E60F9F">
+<createdBy>adrian.perez</createdBy>
+<createdTime>2019-10-09 10:36:59 UTC</createdTime>
+<generatorID>DB2B963D-B72C-21A5-776F-EB6520F6E32A</generatorID>
+<ownerDesignName>OffTheLip</ownerDesignName>
+<engineerTo>
+<item key="7DE584C3-BA0F-FE06-01D4-6DEAAA7A8EE5" value="true"/>
+</engineerTo>
+<referedAttribute>0799DBD4-4909-E09E-8910-D4432EE2D17A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="A3558801-73EE-B1D1-19FC-A250D58941B0">
+<createdBy>adrian.perez</createdBy>
+<createdTime>2019-10-09 10:37:15 UTC</createdTime>
+<generatorID>27C7CAB9-12BD-2F0F-235C-91A3650E9F4E</generatorID>
+<ownerDesignName>OffTheLip</ownerDesignName>
+<engineerTo>
+<item key="7DE584C3-BA0F-FE06-01D4-6DEAAA7A8EE5" value="true"/>
+</engineerTo>
+<referedAttribute>B4CE46FB-0CE5-3752-A92F-F47731599F56</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID2" id="A36FF8BA-2A88-6808-8631-EC6BACE83BA6">
+<createdBy>adrian.perez</createdBy>
+<createdTime>2019-10-09 10:37:30 UTC</createdTime>
+<generatorID>1184A9B2-EED9-307B-3B18-0022B59D4EBA</generatorID>
+<ownerDesignName>OffTheLip</ownerDesignName>
+<engineerTo>
+<item key="7DE584C3-BA0F-FE06-01D4-6DEAAA7A8EE5" value="true"/>
+</engineerTo>
+<referedAttribute>B382A309-D4C9-716C-2336-3E20647833E0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
